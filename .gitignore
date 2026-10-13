@@ -4,5 +4,6 @@
 /scenarios/cinebench_resources/**
 .vs/**
 __pycache__
+~$*.xlsx
 /downloads/**
 /scenarios/windows/enterprise_collab/resources/large/**
