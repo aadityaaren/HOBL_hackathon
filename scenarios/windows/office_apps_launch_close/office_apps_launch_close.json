@@ -1,0 +1,268 @@
+[
+    {
+        "author": "",
+        "capture_device": "",
+        "children": [],
+        "create_date": "2026-09-10",
+        "description": "Launch Microsoft Edge, PowerPoint, Excel, Word, Outlook, and Snipping Tool through Windows Search; wait 60 seconds; then close each application one by one.",
+        "enabled": true,
+        "id": "26A000",
+        "type": "Information"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "delay": "1",
+                "description": "Launch Microsoft Edge - Press the Windows key",
+                "enabled": true,
+                "id": "26A002",
+                "text": "\ue03d",
+                "type": "Type",
+                "typing_delay": "50"
+            },
+            {
+                "children": [],
+                "delay": "1",
+                "description": "Launch Microsoft Edge - Type Microsoft Edge",
+                "enabled": true,
+                "id": "26A003",
+                "text": "Microsoft\ue00dEdge",
+                "type": "Type",
+                "typing_delay": "50"
+            },
+            {
+                "children": [],
+                "delay": "5",
+                "description": "Launch Microsoft Edge - Press Enter",
+                "enabled": true,
+                "id": "26A004",
+                "text": "\ue007",
+                "type": "Type",
+                "typing_delay": "50"
+            },
+            {
+                "children": [],
+                "delay": "1",
+                "description": "Launch PowerPoint - Press the Windows key",
+                "enabled": true,
+                "id": "26A005",
+                "text": "\ue03d",
+                "type": "Type",
+                "typing_delay": "50"
+            },
+            {
+                "children": [],
+                "delay": "1",
+                "description": "Launch PowerPoint - Type PowerPoint",
+                "enabled": true,
+                "id": "26A006",
+                "text": "PowerPoint",
+                "type": "Type",
+                "typing_delay": "50"
+            },
+            {
+                "children": [],
+                "delay": "5",
+                "description": "Launch PowerPoint - Press Enter",
+                "enabled": true,
+                "id": "26A007",
+                "text": "\ue007",
+                "type": "Type",
+                "typing_delay": "50"
+            },
+            {
+                "children": [],
+                "delay": "1",
+                "description": "Launch Excel - Press the Windows key",
+                "enabled": true,
+                "id": "26A008",
+                "text": "\ue03d",
+                "type": "Type",
+                "typing_delay": "50"
+            },
+            {
+                "children": [],
+                "delay": "1",
+                "description": "Launch Excel - Type Excel",
+                "enabled": true,
+                "id": "26A009",
+                "text": "Excel",
+                "type": "Type",
+                "typing_delay": "50"
+            },
+            {
+                "children": [],
+                "delay": "5",
+                "description": "Launch Excel - Press Enter",
+                "enabled": true,
+                "id": "26A010",
+                "text": "\ue007",
+                "type": "Type",
+                "typing_delay": "50"
+            },
+            {
+                "children": [],
+                "delay": "1",
+                "description": "Launch Word - Press the Windows key",
+                "enabled": true,
+                "id": "26A011",
+                "text": "\ue03d",
+                "type": "Type",
+                "typing_delay": "50"
+            },
+            {
+                "children": [],
+                "delay": "1",
+                "description": "Launch Word - Type Word",
+                "enabled": true,
+                "id": "26A012",
+                "text": "Word",
+                "type": "Type",
+                "typing_delay": "50"
+            },
+            {
+                "children": [],
+                "delay": "5",
+                "description": "Launch Word - Press Enter",
+                "enabled": true,
+                "id": "26A013",
+                "text": "\ue007",
+                "type": "Type",
+                "typing_delay": "50"
+            },
+            {
+                "children": [],
+                "delay": "1",
+                "description": "Launch Outlook - Press the Windows key",
+                "enabled": true,
+                "id": "26A014",
+                "text": "\ue03d",
+                "type": "Type",
+                "typing_delay": "50"
+            },
+            {
+                "children": [],
+                "delay": "1",
+                "description": "Launch Outlook - Type Outlook",
+                "enabled": true,
+                "id": "26A015",
+                "text": "Outlook",
+                "type": "Type",
+                "typing_delay": "50"
+            },
+            {
+                "children": [],
+                "delay": "5",
+                "description": "Launch Outlook - Press Enter",
+                "enabled": true,
+                "id": "26A016",
+                "text": "\ue007",
+                "type": "Type",
+                "typing_delay": "50"
+            },
+            {
+                "children": [],
+                "delay": "1",
+                "description": "Launch Snipping Tool - Press the Windows key",
+                "enabled": true,
+                "id": "26A017",
+                "text": "\ue03d",
+                "type": "Type",
+                "typing_delay": "50"
+            },
+            {
+                "children": [],
+                "delay": "1",
+                "description": "Launch Snipping Tool - Type Snipping Tool",
+                "enabled": true,
+                "id": "26A018",
+                "text": "Snipping\ue00dTool",
+                "type": "Type",
+                "typing_delay": "50"
+            },
+            {
+                "children": [],
+                "delay": "5",
+                "description": "Launch Snipping Tool - Press Enter",
+                "enabled": true,
+                "id": "26A019",
+                "text": "\ue007",
+                "type": "Type",
+                "typing_delay": "50"
+            },
+            {
+                "children": [],
+                "delay": "60",
+                "description": "Keep all applications open for 60 seconds",
+                "enabled": true,
+                "id": "26A020",
+                "type": "Delay"
+            },
+            {
+                "children": [],
+                "delay": "2",
+                "description": "Close Snipping Tool - Press Alt+F4",
+                "enabled": true,
+                "id": "26A021",
+                "text": "\ue00a\ue034",
+                "type": "Type",
+                "typing_delay": "50"
+            },
+            {
+                "children": [],
+                "delay": "2",
+                "description": "Close Outlook - Press Alt+F4",
+                "enabled": true,
+                "id": "26A022",
+                "text": "\ue00a\ue034",
+                "type": "Type",
+                "typing_delay": "50"
+            },
+            {
+                "children": [],
+                "delay": "2",
+                "description": "Close Word - Press Alt+F4",
+                "enabled": true,
+                "id": "26A023",
+                "text": "\ue00a\ue034",
+                "type": "Type",
+                "typing_delay": "50"
+            },
+            {
+                "children": [],
+                "delay": "2",
+                "description": "Close Excel - Press Alt+F4",
+                "enabled": true,
+                "id": "26A024",
+                "text": "\ue00a\ue034",
+                "type": "Type",
+                "typing_delay": "50"
+            },
+            {
+                "children": [],
+                "delay": "2",
+                "description": "Close PowerPoint - Press Alt+F4",
+                "enabled": true,
+                "id": "26A025",
+                "text": "\ue00a\ue034",
+                "type": "Type",
+                "typing_delay": "50"
+            },
+            {
+                "children": [],
+                "delay": "2",
+                "description": "Close Microsoft Edge - Press Alt+F4",
+                "enabled": true,
+                "id": "26A026",
+                "text": "\ue00a\ue034",
+                "type": "Type",
+                "typing_delay": "50"
+            }
+        ],
+        "description": "",
+        "enabled": true,
+        "id": "26A001",
+        "type": "Run Test"
+    }
+]
